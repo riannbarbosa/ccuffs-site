@@ -16,14 +16,14 @@
     h1 {
   
         color:white;
-        text-align:center;
+       
         }
         .p {
 
             color:#a6a6a6;
             font-weight:500;
             margin:auto;
-            text-align:center;
+            
             
         }
         hr {
@@ -31,16 +31,17 @@
                
         }
         
-        .sidebar{
-             position:absolute;
-             top:0px;
-             left:-200px;
-             width:200px;
-             height:100%;
-             background:#151719;
-             transition:all 300ms linear;
+      .sidebar {
+        position:absolute;
+        top:0px;
+        left: -10px;
+        width:200px;
+        height:100%;
+        background:black;
+        transition:all 300ms linear;
             
-        }
+}
+            
        h2 {
            color:#a6a6a6;
            font-family:helvetica;
@@ -49,25 +50,41 @@
              color:#a6a6a6;
             
         }
+        .main {
+        margin-left:250px;
+        font-size:21px;
+        padding:0px 10px;
+        margin-top:8rem;
+        
+        }
+        @media screen and (max-width: 400px) {
+          .sidebar a {
+           text-align: center;
+           float: none;
+  }
+}
     </style>
     
 </head>
 
 <body>
-    
+
+<div class="sidebar">
+
+</div>
+       
+    <div class="main">
        <h1> About Me! </h1>
     <hr></hr>
-    <p class ="p">My name is Rian Borges Barbosa, I'm from Brazil, I currently study Computer Science at
-        <b>Federal University of Fronteira Sul</b> (UFFS). My skills in programming language are javascript, python, C so far. </p>
-    <p class ="p" > In 2020 I've completed the <b>CS50x</b> course from harvard and also many other courses.
-      I'm  a coffee lover (as the most programmers are) because coffee is my fuel for the work and study!
+    <p class ="p">My name is Rian Borges Barbosa, I'm from Brazil, I currently study Computer Science at<b> Federal University of Fronteira Sul</b> (UFFS).</p>
+        <p class ="p"> My skills in programming language are javascript, python, C so far. 
+     In 2020 I've completed the <b>CS50x</b> course from harvard and also many other courses.</p>
+     <p class ="p" > I'm  a coffee lover (as the most programmers are) because coffee is my fuel for the work and study!</p>
+      </div>
         
     </p>
-    <div id="sidebar"></div>
-    <div class="name"><h5>Rian Borges Barbosa</h5></div>
-        
-        <img src="" 
-             
- 
+    
+  
+ </body>
     
 </html>
