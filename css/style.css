@@ -1,0 +1,322 @@
+body  {
+    background-color:#282828;
+    overflow: auto;
+    height: 100%;
+    
+ }
+h1 {
+ 
+ color:white;
+      
+}
+
+.p {
+
+ color: rgb(224, 221, 221);
+ margin:3px;
+         
+ }
+b {
+ display: inline-block;
+ text-decoration: none;
+ position: relative;
+ 
+}
+b:hover::after {
+ content: "";
+ position: relative;
+ left: 0px;
+ display: block;
+ margin-bottom: -2px;
+ border: 1px solid white;
+
+}
+
+
+
+ hr {
+ color:white;
+              
+  }
+       
+.sidebar {
+ position: fixed;
+ left: -3px;
+ width:320px;
+ height:100%;
+ margin: 0;
+ padding: 5px 0px;
+ background:black;
+ text-align: center;
+ 
+           
+}
+           
+h2 {
+ color:#a6a6a6;
+ font-family:helvetica;
+  }
+.name { 
+ color:#a6a6a6;
+           
+}
+.main {
+ display: inline-block;
+ margin-left:450px;
+ font-size:21px;
+ margin-right:200px;
+ margin-top: 5vw;
+ height: 100%;
+ overflow: auto;
+
+       
+}
+.img{
+ border-radius:50%;
+ height: 200px;
+ margin: 4rem auto ;
+ 
+         
+         
+}
+     
+.side {
+ 
+  margin-left: 78px;
+  margin-top: 25px;
+  font-size: 2vw;  
+  color: white;
+
+}
+.CC
+{
+  color: #a6a6a6;
+  font-size: auto;
+  margin: 0 auto;
+   
+
+}
+.logo {
+     filter: invert();
+     padding: 10px;
+     margin-left: 3vw;
+     display: inline-block; 
+     margin-top: -10px;
+     margin:0 auto;
+     
+     
+   }
+   .a {
+     opacity: 55%;
+   }
+   .a:hover{
+     opacity: 1;
+   }
+   .b {
+     opacity: 55%;
+   }
+   .b:hover{
+     opacity: 1;
+   }
+   .c {
+     opacity: 55%;
+   }
+   .c:hover{
+     opacity: 1;
+   }
+   .d {
+     opacity: 55%;
+   }
+   .d:hover{
+     opacity: 1;
+   }
+   
+   
+   
+   .name1 {
+     
+     margin: 0 auto;
+     font-size: auto;
+     margin-top: -2rem;
+     
+    
+   }
+ 
+
+
+ @media  only screen and (max-width: 65rem){
+ .sidebar {
+ position: fixed;
+ left: -3px;
+ width:320px;
+ height:100%;
+ margin: 0;
+ padding: 5px 0px;
+ background:black;
+ text-align: center;
+ }
+   
+ .name1 {
+     
+     font-size: auto;
+     margin: 0 auto;
+     margin-top: -2rem; 
+        
+   }
+
+ .main {
+ display: inline-block;
+ margin-left:350px;
+ font-size:20px;
+ margin-right:2px;
+ margin-top: 6vw;
+ position: relative;
+       
+}
+.logo {
+     filter: invert();
+     padding: 16px;
+     margin-left: 25vw;
+     display: inline-block; 
+     margin-top: -11px;
+     margin:0 auto;
+     
+   }
+ 
+}
+
+
+@media  only screen and (max-width: 48rem){
+ .sidebar {
+   width: 100%;
+   height:auto;
+   position: relative;
+   
+ }
+
+ .img{
+ border-radius:50%;
+ height: 200px;
+ margin: 4rem auto;
+      
+         
+}
+ 
+   
+
+body {
+    background-color:#282828;
+    margin:0;
+    padding:0;
+ }
+   
+   .main{
+     margin: 0 auto;
+     margin-top: 5vw;
+     font-size: auto;
+     position: relative;
+     overflow:auto;
+     
+     
+   }
+   .logo {
+     filter: invert();
+     padding: 16px;
+     margin-left: 25vw;
+     display: inline-block; 
+     margin-top: -11px;
+     margin:0 auto;
+
+     
+   }
+   
+  .CC
+  {
+    
+    color: #a6a6a6;
+    font-size: auto;
+    margin: 0 auto;
+  }
+
+   
+  .name1 {
+     
+     font-size: auto;
+     margin: 0 auto;
+     margin-top: -2rem; 
+        
+   }
+
+  
+}
+
+
+@media  only screen and (max-width: 38rem){
+     .sidebar{
+   width: 100%;
+   height:auto;
+   position: relative;
+ 
+   
+   
+
+     
+   }
+   .logo {
+     filter: invert();
+     padding: 10px;
+     margin-left: 25vw;
+     display: inline-block; 
+     margin-top: -11px;
+     margin:0 auto;
+     
+   }
+   .side {
+  margin-left: 190 px;
+  margin-top: 7vw;
+ font-size: 4vw;
+ color: white;
+
+}
+.img{
+ border-radius:50%;
+ height: 200px;
+ margin: 4rem auto;
+         
+         
+}
+
+
+.CC
+  {
+    
+    color: #a6a6a6;
+    font-size: auto;
+    margin: 0 auto;
+  }    
+
+.name1 {
+     
+     font-size: auto;
+     margin: 0 auto;
+     margin-top: -2rem;
+      
+   }
+
+     .main {
+       width: 100%;
+       padding: 10px;
+       margin-top: 5vw;
+       font-size: 21px;
+      
+     overflow:visible;
+     }
+   
+   }
+  
+   
+   
+
+
+ 
+   
