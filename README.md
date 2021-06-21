@@ -4,7 +4,7 @@
 
 # Meu site pessoal
 
-Criado a partir do repositório 'ccuffs-site';
+Criado a partir do repositório 'ccuffs-site'.
 
 
 ## 🎫 Licença
